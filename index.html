@@ -6,7 +6,8 @@
     <title>Excalibur</title>
     <style>
         body {
-            background-color: #121212;
+            background: url('marble-texture.jpg') no-repeat center center fixed; /* Edler Marmor-Hintergrund */
+            background-size: cover;
             color: #ffffff;
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -27,12 +28,21 @@
             font-size: 2rem;
             letter-spacing: 3px;
             text-transform: uppercase;
+            color: #d4af37; /* Goldener Farbton */
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.7); /* Transparente schwarze Box für besseren Kontrast */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.3);
         }
     </style>
 </head>
 <body>
-    <img src="logo.png" alt="Excalibur Logo" class="logo">
-    <h1>Willkommen bei Excalibur</h1>
-    <p>Luxus, Lifestyle & Erfolg</p>
+    <div class="container">
+        <img src="logo.png" alt="Excalibur Logo" class="logo">
+        <h1>Willkommen bei Excalibur</h1>
+        <p>Luxus, Lifestyle & Erfolg</p>
+    </div>
 </body>
 </html>
